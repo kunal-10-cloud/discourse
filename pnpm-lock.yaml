@@ -400,8 +400,8 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2(@babel/core@7.27.7)(@glint/template@1.4.1-unstable.34c4510)
       '@ember/test-waiters':
-        specifier: ^4.1.0
-        version: 4.1.0(@glint/template@1.4.1-unstable.34c4510)
+        specifier: ^4.1.1
+        version: 4.1.1(@glint/template@1.4.1-unstable.34c4510)
       '@embroider/compat':
         specifier: ^3.8.5
         version: 3.8.5(@embroider/core@3.5.5(@glint/template@1.4.1-unstable.34c4510))(@glint/template@1.4.1-unstable.34c4510)
@@ -1814,8 +1814,8 @@ packages:
     resolution: {integrity: sha512-bb9h95ktG2wKY9+ja1sdsFBdOms2lB19VWs8wmNpzgHv1NCetonBoV5jHBV4DHt0uS1tg9z66cZqhUVlYs96KQ==}
     engines: {node: 10.* || 12.* || >= 14.*}
 
-  '@ember/test-waiters@4.1.0':
-    resolution: {integrity: sha512-qRFA0OumYv7/C3hmx4ETC2dlPzyD549D+naPhcrnV2xCnc3AZlKouWyoFnNF+Cje918kRp9aEefVgV3vmGL5Bg==}
+  '@ember/test-waiters@4.1.1':
+    resolution: {integrity: sha512-HbK70JYCDJcGI0CrwcbjeL2QHAn0HLwa3oGep7mr6l/yO95U7JYA8VN+/9VTsWJTmKueLtWayUqEmGS3a3mVOg==}
 
   '@embroider/addon-shim@1.10.0':
     resolution: {integrity: sha512-gcJuHiXgnrzaU8NyU+2bMbtS6PNOr5v5B8OXBqaBvTCsMpXLvKo8OBOQFCoUN0rPX2J6VaFqrbi/371sMvzZug==}
@@ -8526,8 +8526,8 @@ packages:
   virtual-dom@2.1.1:
     resolution: {integrity: sha512-wb6Qc9Lbqug0kRqo/iuApfBpJJAq14Sk1faAnSmtqXiwahg7PVTvWMs9L02Z8nNIMqbwsxzBAA90bbtRLbw0zg==}
 
-  volar-service-typescript@0.0.64:
-    resolution: {integrity: sha512-FN2H97iqjR1id8AM4fH7lTXuTx2on9zD6QlUFllaiHKqgNrEITlQwm/9Ujrd9ST7MUzhgIKyUsa2WlanX9kkMg==}
+  volar-service-typescript@0.0.65:
+    resolution: {integrity: sha512-zPJuLIMs7lkQCvL+Rza8+3/EIoXEIkX8+DL7bNNfPgnbalbvRDhqWLVMJ6Zk3pINjLJafDqyhSbw8srfkUv97w==}
     peerDependencies:
       '@volar/language-service': ~2.4.0
     peerDependenciesMeta:
@@ -9769,7 +9769,7 @@ snapshots:
 
   '@ember/test-helpers@5.2.2(@babel/core@7.27.7)(@glint/template@1.4.1-unstable.34c4510)':
     dependencies:
-      '@ember/test-waiters': 4.1.0(@glint/template@1.4.1-unstable.34c4510)
+      '@ember/test-waiters': 4.1.1(@glint/template@1.4.1-unstable.34c4510)
       '@embroider/addon-shim': 1.10.0
       '@embroider/macros': 1.16.12(@glint/template@1.4.1-unstable.34c4510)
       '@simple-dom/interface': 1.4.0
@@ -9789,7 +9789,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@ember/test-waiters@4.1.0(@glint/template@1.4.1-unstable.34c4510)':
+  '@ember/test-waiters@4.1.1(@glint/template@1.4.1-unstable.34c4510)':
     dependencies:
       '@embroider/addon-shim': 1.10.0
       '@embroider/macros': 1.16.12(@glint/template@1.4.1-unstable.34c4510)
@@ -10404,7 +10404,7 @@ snapshots:
       silent-error: 1.1.1
       typescript: 5.6.3
       uuid: 8.3.2
-      volar-service-typescript: 0.0.64(@volar/language-service@2.4.0-alpha.16)
+      volar-service-typescript: 0.0.65(@volar/language-service@2.4.0-alpha.16)
       vscode-languageserver-protocol: 3.17.5
       vscode-languageserver-textdocument: 1.0.12
       vscode-uri: 3.0.8
@@ -12689,7 +12689,7 @@ snapshots:
 
   ember-async-data@2.0.1(@babel/core@7.27.7)(@glint/template@1.4.1-unstable.34c4510):
     dependencies:
-      '@ember/test-waiters': 4.1.0(@glint/template@1.4.1-unstable.34c4510)
+      '@ember/test-waiters': 4.1.1(@glint/template@1.4.1-unstable.34c4510)
       '@embroider/addon-shim': 1.10.0
       decorator-transforms: 2.3.0(@babel/core@7.27.7)
     transitivePeerDependencies:
@@ -18188,7 +18188,7 @@ snapshots:
       x-is-array: 0.1.0
       x-is-string: 0.1.0
 
-  volar-service-typescript@0.0.64(@volar/language-service@2.4.0-alpha.16):
+  volar-service-typescript@0.0.65(@volar/language-service@2.4.0-alpha.16):
     dependencies:
       path-browserify: 1.0.1
       semver: 7.7.2
