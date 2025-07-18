@@ -1,0 +1,42 @@
+@use "lib/viewport";
+
+// Styles for /admin/backups
+.admin-backups {
+  .before-backup-list-outlet {
+    margin-top: 1em;
+  }
+
+  .d-admin-table {
+    .backup-size {
+      text-align: right;
+    }
+
+    .backup-filename {
+      text-wrap: balance;
+    }
+  }
+}
+
+.admin-backups-logs {
+  max-height: 65vh;
+  overflow: auto;
+}
+
+.start-backup-modal {
+  .alert {
+    margin-bottom: 0;
+  }
+}
+
+.backup-message {
+  margin-left: auto;
+  margin-top: 1em;
+
+  @include viewport.until(sm) {
+    margin: 1.25em 0 0;
+  }
+}
+
+label.admin-backups-upload {
+  font-weight: 400;
+}
